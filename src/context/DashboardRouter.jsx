@@ -17,7 +17,7 @@ const DashboardRouter = () => {
     case 'mentee':
       return <MenteeDashboard />;
     default:
-      return <p>Unauthorized or unknown role.</p>;
+      return <p>You have not been assigned a role.</p>;
   }
 };
 
